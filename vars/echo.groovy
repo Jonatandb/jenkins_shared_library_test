@@ -1,3 +1,3 @@
-def call(String msg) {
-  sh "echo ${msg}."
+def call(String msg = 'no message suplied') {
+  sh "echo Message: ${msg}."
 }
